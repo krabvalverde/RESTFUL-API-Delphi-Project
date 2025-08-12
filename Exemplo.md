@@ -18,6 +18,7 @@ A resposta da API será:
 
 - Status 200 (se o usuário existir no banco de dados)
 - JSON retornado:
+  
 { <br>
   "nome": "Kaique" <br>
 }
@@ -33,6 +34,7 @@ A API recebe, compara a senha recebida com o hash salvo no banco e retorna:
 
 - Status 200 (indica que a autenticação foi bem-sucedida)
 - JSON retornado:
+  
 { <br>
   "access_token": "token de acesso válido por 15 minutos", <br>
   "refresh_token": "token refresh válido por 20 dias" <br>
