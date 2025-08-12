@@ -22,8 +22,6 @@ A resposta da API será:
   "nome": "Kaique"
 }
 
----
-
 O mesmo se aplica para o campo de senha:
 
 {
