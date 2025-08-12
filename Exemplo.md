@@ -23,7 +23,7 @@ A resposta da API será:
   "nome": "Kaique" <br>
 }
 
-O mesmo se aplica para o campo de senha:
+O mesmo se aplica para o endpoint /login/validar-senha:
 
 { <br>
   "cpf": "123456789123", <br>
