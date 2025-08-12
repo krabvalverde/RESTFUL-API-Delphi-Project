@@ -10,32 +10,32 @@ Aqui vai um pequeno exemplo de troca de informações durante uma requisição n
 
 Ao inserir o CPF no campo, envia-se o seguinte JSON para a API:
 
-{
-  "cpf": "123456789123"
+{ <br>
+  "cpf": "123456789123" <br>
 }
 
 A resposta da API será:
 
 - Status 200 (se o usuário existir no banco de dados)
 - JSON retornado:
-{
-  "nome": "Kaique"
+{ <br>
+  "nome": "Kaique" <br>
 }
 
 O mesmo se aplica para o campo de senha:
 
-{
-  "cpf": "123456789123",
-  "senha": "senha"
+{ <br>
+  "cpf": "123456789123", <br>
+  "senha": "senha" <br>
 }
 
 A API recebe, compara a senha recebida com o hash salvo no banco e retorna:
 
 - Status 200 (indica que a autenticação foi bem-sucedida)
 - JSON retornado:
-{
-  "access_token": "token de acesso válido por 15 minutos",
-  "refresh_token": "token refresh válido por 20 dias"
+{ <br>
+  "access_token": "token de acesso válido por 15 minutos", <br>
+  "refresh_token": "token refresh válido por 20 dias" <br>
 }
 
 ---
