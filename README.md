@@ -105,7 +105,7 @@ informações da sessão do usuário. Não é necessário liberar o objeto da me
 - Defina as propriedades que os tokens de usuário podem ter em 'unAPI.Infra.Claims', utilizando sempre getters e setters.
 
 Dicas:
-- Nunca retorne erros explicitos da API nos 'E.Message', sempre retorne erros genéricos utilizando 'raise Exception.Create'. Essa prática dificulta algum possível <br>
+- Nunca retorne erros explicitos da API nos 'E.Message', sempre retorne erros genéricos utilizando 'raise Exception.Create'. Essa prática dificulta algum possível
 invasor de conseguir informações específicas do funcionamento da API.
 
 
