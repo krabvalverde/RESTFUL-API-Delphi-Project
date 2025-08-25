@@ -91,9 +91,9 @@ THorse
      
     end;
 ```
-**OBS**: O método '.AddCallBack' é quem cuida da validação do token e já verifica se não está expirado, não é necessária valiação adicional. \\
+**OBS**: O método '.AddCallBack' é quem cuida da validação do token e já verifica se não está expirado, não é necessária valiação adicional.  
 Nos endpoints privados, DEVE ser criado o objeto de 'TCustomClaims' e declarar da maneira acima, pois é nele que ficam guardadas as <br>
-informações da sessão do usuário. Não é necessário liberar o objeto da memória, o próprio Horse faz a gestão. \\
+informações da sessão do usuário. Não é necessário liberar o objeto da memória, o próprio Horse faz a gestão.  
 **ATENÇÃO**: Sempre especifique o tipo de token que será utilizado no endpoint através da propriedade 'TCustomClaims.Tipo' (refresh ou access).
 
 3. Criando métodos:
