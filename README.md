@@ -77,6 +77,7 @@ Dessa forma, quem requisitar no endpoint receberá a resposta, sem necessidade d
 <br>
 2. Criando uma rota privada (JWT):
 - Declarar a rota no API.dpr, também especificando o método HTTP:
+
 ```  
 THorse
   .AddCallback(HorseJWT(GetEnv('API_KEY'), THorseJWTConfig.New.SessionClass(TCustomClaims)))
